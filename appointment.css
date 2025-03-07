@@ -13,7 +13,7 @@ p {
 .containerr {
   /* background-color: rgb(203, 199, 199); */
   /* padding: 50px; */
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 /* Nav section */
@@ -26,6 +26,9 @@ p {
 
 .navbar-toggler-icon {
   filter: invert(100%);
+}
+.mobile nav{
+    margin: 0 0px 0 10px;
 }
 nav .nav-link {
   color: var(--text-color);
@@ -147,7 +150,7 @@ select{
 
 /* *** ==> Footer  */
 footer {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   background-color: var(--wine);
   color: white;
   padding: 20px;
@@ -206,9 +209,8 @@ footer p {
 }
 
 .white-line {
-  display: block;
-  margin: 0 auto;
-  margin: 20px 0;
+  display: flex;
+    margin: 0 auto;
 }
 
 /* *******=====> Desktop */
@@ -240,6 +242,7 @@ footer p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 50px;
 }
 .desktop nav ul {
   display: flex;
@@ -286,8 +289,8 @@ footer p {
 /* Desktop Hero section */
 
 .dsktp-hero {
-  margin: 30px 0 0;
-  height: calc(100vw * (1440 / 1251));
+  /* margin: 30px 0 0; */
+  height: calc(100vw * (1040 / 1151));
   background-image: url('./images/appointment-dsktp-hero.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -302,8 +305,9 @@ footer p {
     background-color: white;
     opacity: 0.75;
     padding: 15px 50px;
-    width: 68%;
+    width: 60%;
     padding-bottom: 200px;
+    margin-right: 10px;
     
 }
 
@@ -346,7 +350,7 @@ footer p {
   }
   .containerr {
     /* background-color: pink; */
-    padding: 0 50px;
+    padding: 0 ;
   }
 
   .mobile {
