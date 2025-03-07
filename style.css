@@ -239,8 +239,10 @@ footer {
   margin-top: 10px;
   background-color: var(--wine);
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
+
+
 
 footer p {
   font-weight: 100;
@@ -378,13 +380,13 @@ footer p {
 @media (min-width: 796px) and (max-width: 820px) {
 }
 
-@media screen and (min-width: 895px) {
+@media screen and (min-width: 940px) {
   footer {
-    padding: 10px 80px;
+    padding: 10px 40px;
   }
   .containerr {
     /* background-color: pink; */
-    padding: 0 100px;
+    padding: 0 50px;
   }
 
   .mobile {
@@ -508,7 +510,7 @@ footer p {
     grid-template-columns: 0.5fr 3fr;
   }
   footer .lg-logo {
-    width: 230px;
+    width: 180px;
   }
   footer .contact-dets {
     margin-top: 50px;
