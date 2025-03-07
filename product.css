@@ -87,13 +87,12 @@ nav .nav-link:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 .hero > div {
   margin-top: 100px;
-  background-color: rgb(68, 211, 42);
 }
 .hero img {
   width: 100%;
