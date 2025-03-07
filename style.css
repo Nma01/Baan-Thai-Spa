@@ -83,6 +83,10 @@ main .hero-paragraph {
   margin: 10px 0;
   display: inline;
 }
+.bttn a{
+    text-decoration: none;
+    color: white;
+}
 
 main .bttn {
   border: none;
@@ -94,6 +98,10 @@ main .bttn {
   display: block;
   margin: 0 auto;
 }
+main .bttn a{
+    text-decoration: none;
+    color: white;
+} 
 
 .hero-img-cont {
 }
@@ -335,10 +343,6 @@ footer p {
 .desktop nav ul {
   display: flex;
   gap: 10px;
-  /* justify-content: center;
-    align-items: center; */
-  /* margin: 0; */
-
   list-style: none;
 }
 .desktop nav ul li {
@@ -352,6 +356,16 @@ footer p {
 .desktop nav ul li a:hover {
   color: var(--wine);
 }
+
+.desktop .bttn a{
+    text-decoration: none;
+    color: white;
+}
+.desktop .bttn a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .desktop nav ul li a img {
   width: 20px;
   margin-left: -5px;
